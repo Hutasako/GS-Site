@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    /* background-color: black; */
+}
+.header-theme{
+    font-family: 'Pacifico';
+    color: gold;
+}
+.container {
+    min-height: 100vh;
+}
+.navbar-theme{
+    background-color: #783A78 !important;
+}
+.border-theme{
+    border-color:pink !important
+}
+.image-logo{
+    max-width: 720px;
+    max-height: 500px
+}
+.icon{
+    height: 48px;
+    width: 48px;;
+}
+.icon-theme{
+    /* background-color:pink !important; */
+    fill: pink;
+}
+.button-theme-secondary {
+    background-color: #E983D8;
+}
+
+.button-theme:hover{
+    transition: 0.3s;
+    background-color:pink;
+}
+.button-theme:hover > a > .icon{
+    transition: 0.3s;
+    fill:white;
+}
+.card-body{
+    background-color:#FFED8A;
+}
